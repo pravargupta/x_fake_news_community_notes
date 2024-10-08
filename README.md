@@ -17,4 +17,8 @@ We have used only ~1500 tweets as of now for basic implementation, this can be f
 
 Something new that we tried in this attempt was to not include which user spread more fake news over the course of time. 5 features were used in the graph with ~1500 nodes. The nodes were the tweetID which makes each node unique which is better for a graph model. Community notes can be added in the model in many ways but for now it has been added as agreement/ disagreement from the original tweet. GNN Model was used for implementation. Comments added by chatGPT for better understanding.
 
-To see implementation just run the notebook file on system after installing the required libraries(as mentioned in the repository).
+To see implementation just run the notebook file on system after installing the requirements.txt file. Code will be made modular later on.
+
+```bash
+pip install -r requriements.txt
+```
